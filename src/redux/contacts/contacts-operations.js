@@ -1,6 +1,5 @@
 import axios from 'axios';
 import { toast } from 'react-toastify';
-
 import actions from './contacts-actions'; // Импорт экшенов из контактов в операции
 
 // Асинхронная операция получения списка контактов (делает запрос, диспатчит экшн получения)
